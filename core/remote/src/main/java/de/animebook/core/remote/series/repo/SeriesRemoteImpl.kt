@@ -10,13 +10,6 @@ import retrofit2.Response
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
-/**
- * URL CALLED: https://comicvine.gamespot.com/api/series_list/
-?api_key=62bb0272a8b6de67d6c4f75b009a359797671113
-&format=json&field_list=deck,description,first_episode,last_episode,count_of_episodes,image
-&limit=50&sort=field:asc
- */
-
 class SeriesRemoteImpl(
     private val mapper: RemoteSeriesMapper,
     private val webService: ComicVineSeriesWebService
