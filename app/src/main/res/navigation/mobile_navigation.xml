@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_series">
+
+    <fragment
+        android:id="@+id/navigation_series"
+        android:name="de.animebook.feature.series.ui.view.SeriesListFragment"
+        android:label="@string/title_series"
+        tools:layout="@layout/series_list_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_movies"
+        android:name="de.animebook.feature.movies.MovieListFragment"
+        android:label="@string/title_movie"
+        tools:layout="@layout/fragment_movie_list" />
+
+    <fragment
+        android:id="@+id/navigation_characters"
+        android:name="de.animebook.feature.characters.CharacterListFragment"
+        android:label="@string/title_characters"
+        tools:layout="@layout/fragment_character_list" />
+</navigation>

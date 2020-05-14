@@ -1,0 +1,8 @@
+rootProject.name = 'AnimeBook'
+include ':app'
+include ':core:presentation'
+include ':core:domain'
+include ':feature:base'
+include ':feature:series'
+include ':core:framework-base'
+include ':core:remote'

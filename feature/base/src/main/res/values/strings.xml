@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_text">Data not available at the moment</string>
+    <string name="error_desc">Please check if internet is connected</string>
+</resources>
