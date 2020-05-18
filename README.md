@@ -9,3 +9,4 @@ Using the comicvine api (https://comicvine.gamespot.com/api/) a list of first 50
 - [x] Dependency injectioin with Katana
 - [x] Network calls with Retrofit
 - [x] Deserilization with Moshi
+- [x] Image loading with Facebook Fresco
