@@ -6,7 +6,7 @@ Using the comicvine api (https://comicvine.gamespot.com/api/) a list of first 50
 
 - [x] Model View Presenter patter for UI
 - [x] Clean architecture with repository pattern for business logic
-- [x] Dependency injectioin with Katana
+- [x] Dependency injectioin with [Katana](https://github.com/rewe-digital/katana) 
 - [x] Network calls with Retrofit
 - [x] Deserilization with Moshi
 - [x] Image loading with Facebook Fresco
